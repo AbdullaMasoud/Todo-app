@@ -16,12 +16,6 @@ class HomeLayout extends StatelessWidget {
   var timeController = TextEditingController();
   var titleController = TextEditingController();
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   createDataBase();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
